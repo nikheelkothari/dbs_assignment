@@ -2,21 +2,6 @@ package com.auto.support;
 
 public enum WebElementLibrary implements IDictionary {
 	
-//	BTN_BUY(new CssSelector("a.btn.buy")),
-//	BTN_CHECK_OUT(new CssSelector("div.cart-checkout")),
-//	BTN_CONTINUE(new CssSelector("div#application>div>a")),
-//	LNK_CREDIT_CARD_PAYMENT(new CssSelector("div#payment-list>div:nth-child(2)")),
-//	TXT_CREDIT_CARD_NMBR(new CssSelector("input[name='cardnumber']")),
-//	LABEL_INPUT_CREDIT_CARD_ERROR_MSG(new CssSelector("div>label")),
-//	LABEL_INVALID_CREDIT_CARD_ERROR_MSG(new CssSelector("div.notice.danger>div>span")),
-//	TXT_CREDIT_CARD_EXPIRY_DATE(new CssSelector("input[placeholder='MM / YY']")),
-//	TXT_CREDIT_CARD_CVV_NMBR(new CssSelector("input[placeholder='123']")),
-//	BTN_PAY_NOW(new XPathSelector("//a[text() = 'Cards']")),
-//	TXT_OTP(new CssSelector("input#PaRes")),
-//	BTN_OK(new CssSelector("button.btn.btn-sm.btn-success")), 
-//	LBL_TRANSACTION_SUCCESSFUL(new CssSelector("div.text-success.text-bold")),
-//	LBL_TRANSACTION_FAILURE(new CssSelector("div.text-failed.text-bold"));
-	
 	LINK_CARDS(new XPathSelector("//div[@id='flpHeader']//a[text() = 'Cards']")),
 	LINK_CREDIT_CARDS(new XPathSelector("//div/ul/li[2]//a[text() = 'Credit Cards']")),
 	CHECK_1(new XPathSelector("//label[@for='cb0']/div/span")),
